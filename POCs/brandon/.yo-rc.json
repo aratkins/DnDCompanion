@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "DnDCompanion",
+    "packageName": "com.dndcomp",
+    "packageFolder": "com/dndcomp",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "746a870abf81981fd7f3a00f2f55747b61dfe06c",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}
