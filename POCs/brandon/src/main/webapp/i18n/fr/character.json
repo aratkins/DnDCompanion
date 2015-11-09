@@ -1,0 +1,20 @@
+{
+    "dnDCompanionApp": {
+        "character" : {
+            "home": {
+                "title": "Characters",
+                "createLabel": "Créer un nouveau Character",
+                "createOrEditLabel": "Créer ou éditer un Character"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Character {{ id }} ?"
+            },
+            "detail": {
+                "title": "Character"
+            },
+            "name": "Name",
+            "type": "Type"
+        }
+    }
+}
+

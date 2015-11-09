@@ -21,13 +21,18 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="">
                         <span>
                             <span class="glyphicon glyphicon-th-list"></span>
-                            <span class="hidden-sm" translate="global.menu.entities.main">
-                                Entities
+                            <span class="hidden-sm" translate="global.menu.games.main">
+                                Games
                             </span>
                             <b class="caret"></b>
                         </span>
                     </a>
                     <ul class="dropdown-menu">
+                    
+                        <li ui-sref-active="active" ><a ui-sref="character" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.character">character</span></a></li>
+                        <li ui-sref-active="active" ><a ui-sref="player" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-asterisk"></span>
+                        &#xA0;<span translate="global.menu.entities.player">player</span></a></li>
                         <!-- JHipster will add entities to the menu here -->
                     </ul>
                 </li>
@@ -44,6 +49,10 @@
                     <ul class="dropdown-menu">
                         <li ui-sref-active="active" ng-switch-when="true"><a ui-sref="settings" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-wrench"></span>
                             &#xA0;<span translate="global.menu.account.settings">Settings</span></a></li>
+                            
+                        <li ui-sref-active="active" ng-switch-when="true"><a ui-sref="game" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-book"></span>
+                            &#xA0;<span translate="global.menu.account.game">Game Screen</span></a></li>
+                            
                         <li ui-sref-active="active" ng-switch-when="true"><a ui-sref="password" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-lock"></span>
                             &#xA0;<span translate="global.menu.account.password">Password</span></a></li>
                         <li ui-sref-active="active" ng-switch-when="true"><a ui-sref="sessions" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="glyphicon glyphicon-cloud"></span>

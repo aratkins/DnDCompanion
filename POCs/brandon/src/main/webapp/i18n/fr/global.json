@@ -6,6 +6,8 @@
             "home": "Accueil",
             "entities": {
                 "main": "Entités",
+                "character": "Character",
+                "player": "Player",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

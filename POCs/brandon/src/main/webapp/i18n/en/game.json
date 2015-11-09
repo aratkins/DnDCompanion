@@ -1,0 +1,7 @@
+{
+    "game": {
+        "title": "Game Screen for <b>{{username}}</b>",
+        "name": "Name",
+        "name.placeholder": "Enter a Character Name"
+	}
+}
